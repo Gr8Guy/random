@@ -3,6 +3,129 @@
   <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
 <link href="script.js" rel="script">
+    <style>
+      #evefo2 {width: 90%; padding: 0px; box-sizing: border-box; background: #666666; margin: auto; font-family: abrade; font-size: 18px; line-height: 1.7; color: #2A2A2A;}
+#evefo2 span {border-bottom: 1px solid #F41555; background: rgba(244,21,85,.25)}
+#evefo2 h1 {font-size: 30px; }
+
+
+#rando {width: 55%; margin: auto; display: block;background: #666666;}
+#rando .catt {height: 80px; width: 100%; background: #666666; margin-bottom: 10px; display: flex; flex-wrap: wrap;  border: 1px solid #ccc}
+.catt .tpp {height: 25px; width: 100%; box-sizing: border-box; background: blue; font-family: abrade; color: black; display: flex; align-items: center; padding-left: 10px; font-size: 15px;  }
+.catt:nth-child(odd) .tpp {background: #999}
+.catt:nth-child(even) .tpp {background: #999}
+
+#codetype, #codeimgs, #mustinclude, #fontideas {background: #666; width: calc(100% - 100px); height: 55px; box-sizing: border-box; display: flex; align-items: center; padding-left: 20px;  text-transform: lowercase; color: #000; font-size: 22px; transition: .4s ease}
+
+.catt button {
+    backface-visibility: hidden;
+height:50%;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(110deg,#eee 0%,#e3e3e3 10%,#fff 20.1%,#fff 25%,#f0f0f0 26%,#fff 28.000000000000004%,#ddd 55.00000000000001%,#eee 100%);
+  border-radius: 100px;
+  border: 1px solid #999;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,0.25),0px 0px 2px 4px rgba(0,0,0,0.1);
+    color: #444;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px 2px 1px rgba(0,0,0,0.3)
+  }
+  .button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+    font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+  .button > .ld {
+    font-size: initial
+  }
+body{background-color:#666666; font-family: adobe caslon pro;}
+    </style>
+    <script>
+      var ctype = [
+'Standardized Patient',
+'Hi-Fi Simulator',
+'Lo-Fi Simulator',
+'Task Trainer / Procedural Trainer',
+'Telemed',
+'Tabletop / Lecture / Case Study',
+'Mass Casualty / Triage',
+]
+
+function code1() {
+var randomNumber = Math.floor(Math.random() * 9);
+document.getElementById('codetype').innerHTML = ctype[randomNumber];
+}
+
+var cimg = [
+'zero',
+'one',
+'two',
+'three',
+'four',
+'five',
+'six',
+'more than six'
+]
+
+function code2() {
+var randomNumber = Math.floor(Math.random() * 8);
+document.getElementById('codeimgs').innerHTML = cimg[randomNumber];
+}
+
+var cinclude = [
+'tabs',
+'toggle',
+'animation',
+'hover',
+'2 fonts',
+'3 fonts',
+'no mix blend modes',
+]
+
+function code3() {
+var randomNumber = Math.floor(Math.random() * 7);
+document.getElementById('mustinclude').innerHTML = cinclude[randomNumber];
+}
+
+var cfont = [
+'roboto',
+'playfair display',
+'poppins',
+'open sans',
+'lato',
+'noto sans',
+'noto serif',
+'abril fatface',
+'barlow',
+'cousine'
+]
+
+function code4() {
+var randomNumber = Math.floor(Math.random() * 10);
+document.getElementById('fontideas').innerHTML = cfont[randomNumber];
+}
+    </script>
+    
   </head>
   <body>
     <div id="evefo2">
