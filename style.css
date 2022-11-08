@@ -47,7 +47,7 @@ height:50%;
   border-width: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  position: static
+  position: static;
   }
   .button > .ld {
     font-size: initial
