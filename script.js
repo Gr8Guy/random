@@ -15,8 +15,8 @@ function code1() {
 }
 
 var cimg = [
-	"zero",
-	"one",
+	"invasive procedure",
+	"patient / family education",
 	"two",
 	"three",
 	"four",
