@@ -1,11 +1,12 @@
 var ctype = [
-	"Standardized Patient",
-	"Hi-Fi Simulator",
-	"Lo-Fi Simulator",
-	"Task Trainer / Procedural Trainer",
-	"Telemed",
-	"Tabletop / Lecture / Case Study",
-	"Mass Casualty / Triage"
+	"Mental or physical handicap",
+	"Sensory impaired",
+	"Cultural context",
+	"Religious",
+	"Socioeconomic",
+	"Criminal status",
+	"language barrier",
+	"identity / expression"
 ];
 
 function code1() {
