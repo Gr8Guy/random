@@ -10,7 +10,7 @@ var ctype = [
 ];
 
 function code1() {
-	var randomNumber = Math.floor(Math.random() * 9);
+	var randomNumber = Math.floor(Math.random() * 8);
 	document.getElementById("codetype").innerHTML = ctype[randomNumber];
 }
 
@@ -56,7 +56,7 @@ var cfont = [
 ];
 
 function code4() {
-	var randomNumber = Math.floor(Math.random() * 10);
+	var randomNumber = Math.floor(Math.random() * 7);
 	document.getElementById("fontideas").innerHTML = cfont[randomNumber];
 }
 
