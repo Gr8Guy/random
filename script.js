@@ -31,13 +31,13 @@ function code2() {
 }
 
 var cinclude = [
-	"tabs",
-	"toggle",
-	"animation",
-	"hover",
-	"2 fonts",
-	"3 fonts",
-	"no mix blend modes"
+	"ethical or criminal issues",
+	"resistance from family / patient",
+	"prejudice or bias from patient/family",
+	"religious or political conflict with treatment options",
+	"-",
+	"-",
+	"-"
 ];
 
 function code3() {
