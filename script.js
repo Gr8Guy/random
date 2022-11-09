@@ -45,16 +45,13 @@ function code3() {
 }
 
 var cfont = [
-	"roboto",
-	"playfair display",
-	"poppins",
-	"open sans",
-	"lato",
-	"noto sans",
-	"noto serif",
-	"abril fatface",
-	"barlow",
-	"cousine"
+	"Standardized Patient",
+	"Hi-Fi Simulator",
+	"Lo-Fi Simulator",
+	"Task Trainer / Procedural Trainer",
+	"Telemed",
+	"Tabletop / Lecture / Case Study",
+	"Mass Casualty / Triage"
 ];
 
 function code4() {
