@@ -6,11 +6,12 @@ var ctype = [
 	"Socioeconomic",
 	"Criminal status",
 	"language barrier",
-	"identity / expression"
+	"identity / expression",
+	"Criminal status"
 ];
 
 function code1() {
-	var randomNumber = Math.floor(Math.random() * 8);
+	var randomNumber = Math.floor(Math.random() * 9);
 	document.getElementById("codetype").innerHTML = ctype[randomNumber];
 }
 
@@ -31,17 +32,19 @@ function code2() {
 }
 
 var cinclude = [
-	"ethical or criminal issues",
+	"ethical/legal issues",
 	"resistance from family / patient",
 	"prejudice or bias from patient/family",
 	"religious or political conflict with treatment options",
-	"-",
-	"-",
-	"-"
+	"radical political stance / supremacy",
+	"trafficking victim",
+	"abuse victim",
+	"invasive procedure",
+	"ambulatory exam",
 ];
 
 function code3() {
-	var randomNumber = Math.floor(Math.random() * 7);
+	var randomNumber = Math.floor(Math.random() * 9);
 	document.getElementById("mustinclude").innerHTML = cinclude[randomNumber];
 }
 
