@@ -26,10 +26,11 @@
     <div class="row align-items-md-stretch">
       <div class="col-md-4">
         <div class="h-100 p-5 text-bg-dark rounded-2">
-          Random AI generated photo from <a href="https://thispersondoesnotexist.com/" target="https://thispersondoesnotexist.com/">thispersondoesnotexist.com/</a>
+          <button class="btn btn-outline-light" onclick="var ifr=document.getElementsByName('refresh')[0]; ifr.src=ifr.src;">Generate a random AI Image</button>
+           <br/>
           <iframe name="refresh" src="https://thispersondoesnotexist.com/">
-</iframe>
-          <br/><button class="btn btn-outline-light" onclick="var ifr=document.getElementsByName('refresh')[0]; ifr.src=ifr.src;">Generate an Image</button>
+</iframe>From <a href="https://thispersondoesnotexist.com/" target="https://thispersondoesnotexist.com/">thispersondoesnotexist.com/</a>
+         
           <br/><br/>
           <button class="btn btn-outline-light" id="generate">Generate a name</button>
           <br/><br/>
