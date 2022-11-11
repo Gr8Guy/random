@@ -27,8 +27,9 @@
       <div class="col-md-4">
         <div class="h-100 p-5 text-bg-dark rounded-2">
           Random AI generated photo from <a href="https://thispersondoesnotexist.com/" target="https://thispersondoesnotexist.com/">thispersondoesnotexist.com/</a>
-          <iframe src="https://thispersondoesnotexist.com/">
+          <iframe name="refresh" src="https://thispersondoesnotexist.com/">
 </iframe>
+          <br/><button class="btn btn-outline-light" onclick="var ifr=document.getElementsByName('refresh')[0]; ifr.src=ifr.src;">Generate an Image</button>
           <br/><br/>
           <button class="btn btn-outline-light" id="generate">Generate a name</button>
           <br/><br/>
