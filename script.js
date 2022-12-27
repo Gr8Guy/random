@@ -19,7 +19,7 @@ var ctype = [
 ];
 
 function code1() {
-	var randomNumber = Math.floor(Math.random() * 9);
+	var randomNumber = Math.floor(Math.random() * 17);
 	document.getElementById("codetype").innerHTML = ctype[randomNumber];
 }
 
