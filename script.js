@@ -63,9 +63,9 @@ function code4() {
 	document.getElementById("fontideas").innerHTML = cfont[randomNumber];
 }
 
-const firstNames = ["Hope", "Launa", "Katherine", "Walker", "Moses", "Tayna", "Rosia", "Yahaira", "Tommy", "Elwanda", "Clorinda", "Sheron", "Kayla", "Clementina", "Rene", "Rex", "Kathy", "Latoya", "Shirleen", "Shoshana", "Pat" , "Chris", "Remi", "Luca", "Avery", "Harper"];
+const firstNames = ["Hope", "Launa", "Katherine", "Walker", "Moses", "Tayna", "Rosia", "Yahaira", "Tommy", "Elwanda", "Clorinda", "Sheron", "Kayla", "Clementina", "Rene", "Rex", "Kathy", "Latoya", "Shirleen", "Shoshana", "Pat" , "Chris", "Remi", "Luca", "Avery", "Harper", "Mohammad", "Abdul"];
 
-const secondNames = ["Chauncey", "Houchins", "Lama", "Frasca", "Houston", "Ake", "Shankles", "Cantor", "Mizell", "Cleland", "Maltby", "Tirrell", "Cary", "Mace", "Horta", "Carlile", "Deegan", "Torrez", "Humfeld", "Helgeson", "Garcia", "Littlefoot", "Vigil"];
+const secondNames = ["Chauncey", "Houchins", "Lama", "Frasca", "Houston", "Ake", "Shankles", "Cantor", "Mizell", "Cleland", "Maltby", "Tirrell", "Cary", "Mace", "Horta", "Carlile", "Deegan", "Torrez", "Humfeld", "Helgeson", "Garcia", "Littlefoot", "Vigil", "Nguyen", "Ali", "Chen", "Yadav"];
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
