@@ -2,12 +2,20 @@ var ctype = [
 	"Mental or physical handicap",
 	"Sensory impaired",
 	"Cultural context",
-	"Religious",
+	"Religion",
 	"Socioeconomic",
 	"Criminal status",
 	"language barrier",
 	"identity / expression",
-	"Criminal status"
+	"Criminal status",
+	"Education level",
+	"Economic stability",
+	"Environment / neighborhood / Housing",
+	"Sexual Orientation",
+	"Gender identity",
+	"Age",
+	"Color",
+	"Occupation"
 ];
 
 function code1() {
@@ -38,9 +46,14 @@ var cinclude = [
 	"religious or political conflict with treatment options",
 	"radical political stance / supremacy",
 	"trafficking victim",
-	"abuse victim",
-	"invasive procedure",
+	"victim of abuse",
+	"invasive procedure / exam",
 	"ambulatory exam",
+	"medical error",
+	"healthcare literacy",
+	"inapproriate behavior",
+	"conflict with patient family",
+	"language barrier / translator"
 ];
 
 function code3() {
