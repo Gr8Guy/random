@@ -57,7 +57,7 @@ var cinclude = [
 ];
 
 function code3() {
-	var randomNumber = Math.floor(Math.random() * 9);
+	var randomNumber = Math.floor(Math.random() * 14);
 	document.getElementById("mustinclude").innerHTML = cinclude[randomNumber];
 }
 
